@@ -83,14 +83,11 @@ nav{
 .btn{
     border: 1px solid rgb(255, 229, 105);
     background: none;
-    padding: 10px 20px;
-    font-size: 20px;
-    cursor: pointer;
-    margin: 10px;
+    padding: 10px 36px;
+    font-weight: bold;
+    margin: 0;
     color: rgb(255, 229, 105);
     transition: 0.2s;
-    position: relative;
-    overflow: hidden;
     border-radius: 5px;
 }
 
