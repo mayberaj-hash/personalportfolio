@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -104,4 +106,27 @@ nav{
 
 .headers{
     color: var(--mud);
+}
+
+#dev{
+    font-size: 22px;
+}
+
+#dev .dev2{
+    font-family: 'Caveat';
+}
+
+ul{
+    list-style-type: none;
+}
+
+.skill-list{
+    display: flex;
+    padding: 20px 10px;
+    width: 84%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    color: white;
 }
