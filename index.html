@@ -8,12 +8,46 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="frontstyle.css">
         <script src="frontpage.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     </head>
     <body>
-        <div class="first-page">
-            <nav>
-                <h1 class="text-logo">PERSONAL PORTFOLIO</h1>
-            </nav>
+          <div class="first-page">
+            <nav class="navbar">
+                <!-- LOGO -->
+                <div class="logo">PORTFOLIO</div>
+            
+                <!-- NAVIGATION MENU -->
+                <ul class="nav-links">
+            
+                  <!-- USING CHECKBOX HACK -->
+                  <input type="checkbox" id="checkbox_toggle" />
+                  <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+            
+                  <!-- NAVIGATION MENUS -->
+                  <div class="menu">
+            
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/">ABOUT</a></li>
+            
+                    <li class="services">
+                      <a href="/">SERVICES</a>
+            
+                      <!-- DROPDOWN MENU -->
+                      <ul class="dropdown">
+                        <li><a href="/">Dropdown 1 </a></li>
+                        <li><a href="/">Dropdown 2</a></li>
+                        <li><a href="/">Dropdown 2</a></li>
+                        <li><a href="/">Dropdown 3</a></li>
+                        <li><a href="/">Dropdown 4</a></li>
+                      </ul>
+            
+                    </li>
+            
+                    <li><a href="/">ACCOMPLISHMENTS</a></li>
+                    <li><a href="/">CONTACT</a></li>
+                  </div>
+                </ul>
+              </nav>
             <div class="details">
                 <h1>Hello, I'm <span class="name">Rajesh Roy </span>. </h1>
                 <p>This is my personal <span class="name">portfolio</span>.</p>
@@ -25,11 +59,10 @@
                 </div>
             </div>
         </div>
-        <br>
         <div class="second-page">
-            <nav>
+            <section class="skills-head">
                 <h1 class="name">SKILLS</h1>
-            </nav>
+            </section>
             <div class="skill-list">
                 <li><h3>HTML</h3>
                     <span class="bar"><span class="html"></span></span>
