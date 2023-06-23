@@ -126,17 +126,18 @@ nav{
 h3{
     margin: 5px;
 }
+
 .skill-list{
-    justify-content: left;
-    width: 350px;
+    justify-content: center;
+    width: 250px;
     margin: 10px auto;
     color: #ffff;
-    padding: 20px;
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    /*padding: 20px;*/
+    margin-left: 8%;
 }
 
 @media screen and (min-width: 600px) {
-    div.skill-list {
+    .skill-list {
       width: 1250px;
     }
 }
